@@ -1,0 +1,114 @@
+main{
+    height: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+section{
+    width: 275px;
+    height: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.d{
+    transition: all 2s;
+}
+.s1:hover .d1{
+    transform: rotate(45deg);
+}
+.s2:hover .d2{
+    transform: scaleY(0.5);
+}
+.s3:hover .d3{
+    transform: scaleX(0.5);
+}
+.s4:hover .d4{
+    transform: scale(2);
+}
+.s5:hover .d5{
+    transform: scaleX(2);
+}
+.s6:hover .d6{
+    transform: scaleY(2);
+}
+.s7:hover .d7{
+    transform: skew(45deg);
+}
+.s8:hover .d8{
+    transform: skewY(45deg);
+}
+.s9:hover .d9{
+    transform: translate(50px);
+}
+.s10:hover .d10{
+    transform: translate(50px, 20px);
+}
+.s11:hover .d11{
+    transform: translate(0px, 50px);
+}
+.s12:hover .d12{
+    transform-origin: left bottom;
+    transform: scale(2) skewY(45deg);
+}
+.s13:hover .d13{
+    transform: perspective(300px) rotateX(70deg);
+}
+.s14:hover .d14{
+    transform: perspective(300px) rotateY(70deg);
+}
+.s15:hover .d15{
+    transform-origin: right top;
+    transform: rotate(45deg);
+}
+.s16:hover .d16{
+    transform-origin: left bottom;
+    transform: rotate(45deg);
+}
+.s17:hover .d17{
+    transform-origin: bottom;
+    transform: perspective(300px) rotateX(70deg);
+}
+.s18:hover .d18{
+    transform-origin: top;
+    transform: perspective(300px) rotateX(70deg);
+}
+.s19:hover .d19{
+    transform-origin: left;
+    transform: perspective(300px) rotateY(70deg);
+}
+.s20:hover .d20{
+    transform-origin: right;
+    transform: perspective(300px) rotateY(70deg);
+}
+.s21:hover .d21{
+    transform-origin: top right;
+    transform: scale(2);
+}
+.s22:hover .d22{
+    transform-origin: bottom left;
+    transform: scale(2);
+}
+.s23:hover .d23{
+    transform-origin: right;
+    transform: scaleX(2);
+}
+.s24:hover .d24{
+    transform-origin: left;
+    transform: scaleX(2);
+}
+.s25:hover .d25{
+    transform-origin: top;
+    transform: scaleY(2);
+}
+.s26:hover .d26{
+    transform-origin: bottom;
+    transform: scaleY(2);
+}
