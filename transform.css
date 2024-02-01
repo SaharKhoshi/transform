@@ -13,12 +13,18 @@ section{
     justify-content: center;
     align-items: center;
 }
-div{
+.div{
     width: 100px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .d{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(137, 43, 226, 0.556);
     transition: all 2s;
 }
 .s1:hover .d1{
